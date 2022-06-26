@@ -7,7 +7,7 @@ const App = () => {
   return (
     <>
       <SectionWrapper 
-        title="Stake your Crypto, win the Pot!"
+        title="Coinante Lottery: Stake your Crypto, win the Pot!"
         description="Win up to ten times your money in just 5 minutes using cryptocurrency. It's like the lottery, but way better!!"
         showBtn
         mockupImg={assets.homeHero}
