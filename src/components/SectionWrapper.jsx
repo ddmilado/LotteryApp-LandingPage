@@ -3,6 +3,7 @@ import React from 'react';
 import styles from '../styles/Global';
 import assets from '../assets';
 import Button from './Button';
+import Button2 from './Button2';
 
 const SectionWrapper = ({ title, description, showBtn, mockupImg, banner, reverse }) => {
   return (
@@ -22,12 +23,21 @@ const SectionWrapper = ({ title, description, showBtn, mockupImg, banner, revers
           <p className={`
           ${reverse ? styles.blackText : styles.whiteText}
           ${styles.descriptionText}`}>{description}</p>
+          <div className='flex justify-start space-x-14'>
           {showBtn && (
             <Button 
               assetUrl={assets.expo}
-              link="https://expo.dev/@adrianhajdin/react_native_app?serviceType=classic&distribution=expo-go"
+              link="https://expo.dev"
             />
           )}
+
+           {showBtn && (
+            <Button2 
+              assetUrl={assets.expo}
+              link="https://mute-unit-6558.on.fleek.co"
+            />
+          )}
+          </div>
         </div>
         <div
           className={`flex-1 ${styles.flexCenter}p-8 sm:px-0`}
