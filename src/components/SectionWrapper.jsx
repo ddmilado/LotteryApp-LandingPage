@@ -30,10 +30,11 @@ const SectionWrapper = ({ title, description, description2, description3, descri
           ${styles.descriptionText}`}>{description2} <a href='https://www.youtube.com/watch?v=7dzwXCZXdYo'> (Here) </a></p>
           <p className={`
           ${reverse ? styles.blackText : styles.whiteText}
-          ${styles.descriptionText}`}>{description}  <a href='https://www.youtube.com/watch?v=Af_lQ1zUnoM'> (Here) </a></p>
+          ${styles.descriptionText}`}>{description3}  <a href="https://www.youtube.com/watch?v=8JZSUv40Tx0"> (Here) </a></p>
           <p className={`
           ${reverse ? styles.blackText : styles.whiteText}
-          ${styles.descriptionText}`}>{description3}  <a href="https://www.youtube.com/watch?v=8JZSUv40Tx0"> (Here) </a></p>
+          ${styles.descriptionText}`}>{description}  <a href='https://www.youtube.com/watch?v=Af_lQ1zUnoM'> (Here) </a></p>
+          
           <p className={`
           ${reverse ? styles.blackText : styles.whiteText}
           ${styles.descriptionText}`}>{description4}  <a href="https://mute-unit-6558.on.fleek.co"> (Here) </a></p>

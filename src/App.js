@@ -16,9 +16,9 @@ const App = () => {
 
       <SectionWrapper 
         title="How to play"
-        description=" Step Two: Buy Some BNB"
+        description=" Step Three: Buy Some BNB"
         description2=" Step One: Create a MetaMask Wallet       "
-        description3=" Step Three: Connect your MetaMask Wallet  to the Binance Smart Chain"
+        description3=" Step Two: Connect your MetaMask Wallet  to the Binance Smart Chain"
         description4=" Step Four: Enter the Raffle             "
         mockupImg={assets.dice}
         reverse
