@@ -7,7 +7,7 @@ import Button2 from './Button2';
 import Linkify from 'react-linkify';
  
 
-const SectionWrapper = ({ title, description, description2, description3, description4, description5, showBtn, mockupImg, banner, reverse }) => {
+const SectionWrapper2 = ({ title, description, showBtn, mockupImg, banner, reverse }) => {
   return (
     <Linkify 
     properties={{target: '_blank', style: {color: 'red', fontWeight: 'bold'}}}
@@ -28,21 +28,9 @@ const SectionWrapper = ({ title, description, description2, description3, descri
           ${reverse ? styles.blackText : styles.whiteText}
           ${styles.h1Text}`}>{title}</h1>
           <div >
-            <p className={`
-          ${reverse ? styles.blackText : styles.whiteText}
-          ${styles.descriptionText}`}>{description5}</p>
           <p className={`
           ${reverse ? styles.blackText : styles.whiteText}
-          ${styles.descriptionText}`}>{description2} <a href='https://www.youtube.com/watch?v=7dzwXCZXdYo'> (Here) </a></p>
-          <p className={`
-          ${reverse ? styles.blackText : styles.whiteText}
-          ${styles.descriptionText}`}>{description}  <a href='https://www.youtube.com/watch?v=Af_lQ1zUnoM'> (Here) </a></p>
-          <p className={`
-          ${reverse ? styles.blackText : styles.whiteText}
-          ${styles.descriptionText}`}>{description3}  <a href="https://www.youtube.com/watch?v=8JZSUv40Tx0"> (Here) </a></p>
-          <p className={`
-          ${reverse ? styles.blackText : styles.whiteText}
-          ${styles.descriptionText}`}>{description4}  <a href="https://mute-unit-6558.on.fleek.co"> (Here) </a></p>
+          ${styles.descriptionText}`}>{description}</p>
           </div>
           <div className='flex justify-start space-x-14'>
           {showBtn && (
@@ -73,4 +61,4 @@ const SectionWrapper = ({ title, description, description2, description3, descri
   )
 }
 
-export default SectionWrapper
+export default SectionWrapper2
