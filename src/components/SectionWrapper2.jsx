@@ -4,15 +4,11 @@ import styles from '../styles/Global';
 import assets from '../assets';
 import Button from './Button';
 import Button2 from './Button2';
-import Linkify from 'react-linkify';
+
  
 
 const SectionWrapper2 = ({ title, description, showBtn, mockupImg, banner, reverse }) => {
   return (
-    <Linkify 
-    properties={{target: '_blank', style: {color: 'red', fontWeight: 'bold'}}}
-    >
-  
 
     <div className={`min-h-screen ${styles.section} 
       ${reverse ? styles.bgWhite : styles.bgPrimary} 
@@ -57,7 +53,6 @@ const SectionWrapper2 = ({ title, description, showBtn, mockupImg, banner, rever
         </div>
       </div>
     </div>
-    </Linkify>
   )
 }
 
