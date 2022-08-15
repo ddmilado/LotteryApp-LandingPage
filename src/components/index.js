@@ -1,6 +1,8 @@
-import Features from './Features';
+import Features from './Contact';
 import Download from './Download';
-import SectionWrapper from './SectionWrapper';
-import SectionWrapper2 from './SectionWrapper2';
+import HowToPlay from './HowToPlay';
+import Home from './Home';
+import Contact from './Contact';
+import AboutUs from './AboutUs';
 
-export { Features, Download, SectionWrapper, SectionWrapper2 };
+export { Features, Download, Home, HowToPlay, Contact, AboutUs};

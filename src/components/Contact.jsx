@@ -1,16 +1,16 @@
 import React from 'react';
 
-import assets from '../assets';
+// import assets from '../assets';
 import styles from '../styles/Global';
 
-const FeatureCard = ({ iconUrl, iconText }) =>  (
-  <div className={styles.featureCard}>
-    <img src={iconUrl} alt="icon" className={styles.featureImg} />
-    <p className={styles.featureText}>{iconText}</p>
-  </div>
-)
+// const FeatureCard = ({ iconUrl, iconText }) =>  (
+//   <div className={styles.featureCard}>
+//     <img src={iconUrl} alt="icon" className={styles.featureImg} />
+//     <p className={styles.featureText}>{iconText}</p>
+//   </div>
+// )
 
-const Features = () => {
+const Contact = () => {
   return (
     <div className={`${styles.section} ${styles.bgPrimary} banner03`}>
       <div className={`${styles.subSection} flex-col text-center`}>
@@ -28,4 +28,4 @@ const Features = () => {
   )
 }
 
-export default Features
+export default Contact
