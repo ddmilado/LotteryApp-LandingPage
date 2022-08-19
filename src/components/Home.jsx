@@ -43,7 +43,7 @@ const Home = ({ title, description, showBtn, mockupImg, banner, reverse }) => {
            {showBtn && (
             <Button2 
               assetUrl={assets.expo}
-              link="https://mute-unit-6558.on.fleek.co"
+              link="https://wandering-hat-9848.on.fleek.co/"
             />
           )}
           </div>
